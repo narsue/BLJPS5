@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{99edb45e-38be-473c-ac24-7ee06b521ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PathFindingAlgorithms">
+      <UniqueIdentifier>{75141f09-d358-46ea-92a1-bb9ee97a24ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\Timer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SubgoalGraph.cpp">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\binaryHeap.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MapGridData.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Node.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PathFindingAlgorithm.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\JPS.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BL_JPS_Plus.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\getFileNames.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MapProblemContainer.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\JPS_Plus.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Timer.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Astar.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BL_JPS.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BL_JPS_Experimental_2.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\JumpPointNode.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RecordMemoryUsage.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Coordinate.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SubgoalDefinitions.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BL_JPS_Experimental_3.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SubgoalGraph.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BL_JPS_Experimental_4.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DiagJumpNode.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BL_JPS_Experimental_5.h">
+      <Filter>Source Files\PathFindingAlgorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
